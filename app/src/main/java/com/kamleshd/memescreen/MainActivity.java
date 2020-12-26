@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView imageView= (ImageView) findViewById(R.id.imageViews);
 //        RequestQueue queue = Volley.newRequestQueue(this);
         String url ="https://meme-api.herokuapp.com/gimme";
-        RequestManager k= Glide.with(this);
+        
 
 // Request a string response from the provided URL.
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest
